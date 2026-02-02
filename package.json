@@ -1,0 +1,21 @@
+{
+  "name": "web-project-demo",
+  "version": "1.0.0",
+  "description": "A simple web application for personal testing.",
+  "main": "index.js",
+  "scripts": {
+    "start": "chmod +x entrypoint.sh && ./entrypoint.sh"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "engines": {
+    "node": "16.x"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "web"
+  ],
+  "license": "ISC"
+}
